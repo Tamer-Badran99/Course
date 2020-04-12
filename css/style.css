@@ -1,0 +1,380 @@
+
+
+*
+{
+    margin:0;
+    box-sizing:border-box 
+}
+
+.container
+{
+    width:1200px;
+    margin:auto;
+
+}
+
+.clear
+{
+    clear:both
+}
+
+.navbar
+{
+
+    background:url("../imgs/pexels-photo-533630.jpeg"); 
+    background-size:cover;
+    width:100%;
+    height:400px; 
+    overflow:hidden;
+}
+
+.navbar .tamer
+{
+    padding-top:10px;
+    width:100%;
+    height:100%;
+    background-color:rgba(0,0,0,.4);
+    padding-bottom:10px; 
+}
+
+.navbar h1
+{
+    float:left;
+    color:#fff 
+}
+
+
+.navbar ul
+{
+    list-style:none;
+    float:right;
+    margin-top:10px; 
+}
+
+.navbar ul li
+{
+    display:inline-block;
+    margin-right:12px;
+    padding:6px 18px; 
+}
+
+.navbar ul li a
+{
+    color:#ddd;
+    text-decoration:none;
+    
+}
+
+.navbar ul li:last-child
+{
+    background-color:#fff;
+    color:#000;
+    border-radius:40px; 
+}
+
+.navbar ul li:last-child a
+{
+    color:#000 
+}
+
+
+.navbar ul li:last-child a:hover
+{
+   color:#000
+}
+
+.navbar ul li a:hover
+{
+    color:#fff 
+}
+
+
+.navbar h2, .navbar p
+{
+    text-align:center;
+    color:white;
+    margin-top:70px; 
+}
+.navbar p
+{
+    margin-top:10px; 
+}
+
+.navbar .bt
+{
+    margin:auto;
+    display:block;
+    width:190px;
+    margin-top:15px;
+    padding:12px 10px;
+    border-radius:40px;
+    border:0;
+    background-color:deepskyblue;
+    color:#fff;
+    font-size:16px;
+    cursor:pointer
+}
+
+.Consectetur
+{
+    background-color:#eee;
+    padding-top:50px;
+    padding-bottom:50px;
+    text-align:center;
+    overflow:hidden
+}
+
+.Consectetur p
+{
+    margin-top:10px;
+    margin-bottom:20px 
+}
+
+.Consectetur .info > div
+{
+    float:left;
+    width:31.333%;
+    background-color:#fff;
+    margin-right:2%;
+    padding:25px;
+    line-height:1.4 
+}
+
+.Consectetur .info img
+{
+    border-radius:50% 
+}
+
+.Lorem
+{
+    padding:50px 0;
+}
+
+.Lorem h2
+{
+    font-size:30px;
+    margin-bottom:10px;
+}
+
+.Lorem h2, .Lorem p
+{
+    text-align:center
+}
+
+.Lorem p
+{
+    margin-bottom:25px 
+}
+
+.Lorem .desc
+{
+    margin-top:30px;
+    margin-bottom:30px; 
+    overflow:hidden
+}
+
+.Lorem .desc > div
+{
+    float:left;
+    width:25%; 
+}
+
+.Lorem .desc > div .one
+{
+    float:left;
+    width:32%;
+}
+
+.Lorem .desc > div .one img
+{
+    border-radius:50%; 
+}
+
+.Lorem .desc > div .two
+{
+    float:left;
+    width:68%;
+    padding-left:6px; 
+}
+
+.Lorem .desc > div .two h4
+{
+    margin-top:19px;
+}
+
+.Lorem .desc p
+{
+    text-align:left
+}
+
+.Lorem .hr
+{
+    background-color:#f00 
+}
+
+.Lorem .p-b
+{
+    padding:20px 65px 0; 
+}
+
+.Lorem .p-b button
+{
+    display:block;
+    margin:auto;
+    padding:10px 15px;
+    border-radius:35px;
+    border:none;
+    background-color:deepskyblue;
+    font-size:15px;
+    color:#fff
+}
+
+
+.sign-in
+{
+    background-color:#009cd6;
+    padding-top:30px;
+    padding-bottom:30px;
+    color:#fff 
+}
+
+.sign-in h2
+{
+    margin-bottom:8px; 
+}
+
+.sign-in h2, .sign-in p
+{
+    text-align:center 
+}
+
+.sign-in form
+{
+    width:380px;
+    margin:20px  auto;
+}
+
+.sign-in form input
+{
+    display:inline-block;
+    width:180px;
+    margin-right:8px 
+}
+
+ .sign-in form textarea
+{
+    display:block;
+    margin-top:7px;
+    margin-bottom:10px; 
+    width:372.5px;
+    height:80px;
+}
+
+.sign-in form button
+{
+    display:block;
+    margin:auto;
+    color:#fff;
+    background-color:#000;
+    border:none;
+    padding:8px 12px;
+    border-radius:40px
+}
+
+.sign-in form button:hover
+{
+    cursor:pointer
+}
+
+.footer
+{
+    background-color:#333;
+    padding-top:40px;
+    padding-bottom:40px;
+    overflow:hidden
+}
+
+.footer .c > div
+{
+    width:23%;
+    float:left;
+    min-height:100px;
+    margin-right:2%;
+    margin-bottom:25px; 
+    
+}
+
+.footer .c > div h3
+{
+    margin-bottom:15px;
+    color:#fff 
+}
+
+.footer .c > div ul
+{
+    list-style:none;
+    padding-left:0; 
+}
+
+.footer .c > div ul li
+{
+    margin-bottom:10px; 
+}
+
+.footer .c > div ul li a
+{
+    color:#aaa;
+    text-decoration: none
+}
+
+.footer .social-media
+{
+    margin-top:35px; 
+    overflow:hidden; 
+}
+
+.footer .social-media .one
+{
+    float:left;
+    padding-left:0;
+    margin-top:10px; 
+}
+
+.footer .social-media .one li
+{
+    display:inline-block;
+    margin-right:10px;
+    color:#bbb 
+}
+
+.footer .social-media .two
+{
+    float:right;
+    list-style:none;
+    padding-left:0;
+    margin-top:-25px; 
+}
+
+.footer .social-media .two li
+{
+    display:inline-block;
+    margin-left:6px; 
+}
+
+.footer .social-media .two li img
+{
+    height:40px;
+    width:40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
